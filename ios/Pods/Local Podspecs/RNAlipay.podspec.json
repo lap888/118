@@ -1,0 +1,43 @@
+{
+  "name": "RNAlipay",
+  "version": "3.0.0",
+  "summary": "基于 React Native 的支付宝插件，支持Android/iOS。",
+  "description": "Alipay SDK for React Native",
+  "homepage": "git+https://github.com/uiwjs/react-native-alipay.git",
+  "license": "MIT",
+  "authors": {
+    "Kenny Wong": "wowohoo@qq.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/uiwjs/react-native-alipay.git",
+    "tag": "3.0.0"
+  },
+  "source_files": "**/*.{h,c,m,swift}",
+  "requires_arc": true,
+  "frameworks": [
+    "UIKit",
+    "Foundation",
+    "CFNetwork",
+    "SystemConfiguration",
+    "QuartzCore",
+    "CoreGraphics",
+    "CoreMotion",
+    "CoreTelephony",
+    "CoreText",
+    "WebKit"
+  ],
+  "dependencies": {
+    "React": [
+
+    ]
+  },
+  "resources": "AlipaySDK.bundle",
+  "vendored_frameworks": "AlipaySDK.framework",
+  "libraries": [
+    "c++",
+    "z"
+  ]
+}

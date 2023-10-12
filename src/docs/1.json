@@ -1,0 +1,53 @@
+{
+    "_bodyBlob": {
+        "_data": {
+            "__collector": [
+            ],
+            "blobId": "5f873b35-40eb-40c8-8efe-2840cdd754bd",
+            "offset": 0,
+            "size": 140
+        }
+    },
+    "_bodyInit": {
+        "_data": {
+            "__collector": [
+            ],
+            "blobId": "5f873b35-40eb-40c8-8efe-2840cdd754bd",
+            "offset": 0,
+            "size": 140
+        }
+    },
+    "bodyUsed": false,
+    "headers": {
+        "map": {
+            "access-control-allow-origin": "*",
+            "access-control-expose-headers": "ETag, Link, Location, Retry-After, X-GitHub-OTP, X-RateLimit-Limit, X-RateLimit-Remaining, X-RateLimit-Used, X-RateLimit-Resource, X-RateLimit-Reset, X-OAuth-Scopes, X-Accepted-OAuth-Scopes, X-Poll-Interval, X-GitHub-Media-Type, X-GitHub-SSO, X-GitHub-Request-Id, Deprecation, Sunset",
+            "content-length": "140",
+            "content-security-policy": "default-src 'none'",
+            "content-type": "application/json; charset=utf-8",
+            "date": "Tue, 29 Mar 2022 02:34:17 GMT",
+            "github-authentication-token-expiration": "2023-03-02 16:00:00 UTC",
+            "referrer-policy": "origin-when-cross-origin, strict-origin-when-cross-origin",
+            "server": "GitHub.com",
+            "strict-transport-security": "max-age=31536000; includeSubdomains; preload",
+            "vary": "Accept-Encoding, Accept, X-Requested-With",
+            "x-accepted-oauth-scopes": "",
+            "x-content-type-options": "nosniff",
+            "x-frame-options": "deny",
+            "x-github-media-type": "github.v3; format=json",
+            "x-github-request-id": "1D67:5EF1:A469:BA34:62427023",
+            "x-oauth-scopes": "admin:enterprise, admin:gpg_key, admin:org, admin:org_hook, admin:public_key, admin:repo_hook, delete:packages, delete_repo, gist, notifications, repo, user, workflow, write:discussion, write:packages",
+            "x-ratelimit-limit": "5000",
+            "x-ratelimit-remaining": "4998",
+            "x-ratelimit-reset": "1648524254",
+            "x-ratelimit-resource": "core",
+            "x-ratelimit-used": "2",
+            "x-xss-protection": "0"
+        }
+    },
+    "ok": false,
+    "status": 400,
+    "statusText": "",
+    "type": "default",
+    "url": "https://api.github.com/repos/ndgchain/nft/contents/fire/1.png"
+}

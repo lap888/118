@@ -1,0 +1,25 @@
+{
+  "name": "react-native-kline",
+  "version": "2.0.8",
+  "summary": "React Native Kline",
+  "description": "react-native-kline",
+  "homepage": "https://github.com/github_account/react-native-kline",
+  "license": "MIT",
+  "authors": {
+    "Your Name": "yourname@email.com"
+  },
+  "platforms": {
+    "ios": "9.0"
+  },
+  "source": {
+    "git": "https://github.com/github_account/react-native-kline.git",
+    "tag": "2.0.8"
+  },
+  "source_files": "ios/**/*.{h,c,m,swift,xib}",
+  "requires_arc": true,
+  "dependencies": {
+    "React": [
+
+    ]
+  }
+}

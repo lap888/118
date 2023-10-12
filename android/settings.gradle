@@ -1,0 +1,20 @@
+include ':react-native-mobad'
+include ':react-native-bloom-ad'
+project(':react-native-bloom-ad').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-bloom-ad/android')
+project(':react-native-mobad').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-mobad/android')
+rootProject.name = 'yoyoba'
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+include ':react-native-vector-icons'
+project(':react-native-vector-icons').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-vector-icons/android')
+
+apply from: file("../node_modules/@react-native-community/cli-platform-android/native_modules.gradle"); applyNativeModulesSettingsGradle(settings)
+include ':app'
+
+include ':app', ':react-native-code-push'
+project(':react-native-code-push').projectDir = new File(rootProject.projectDir, '../node_modules/react-native-code-push/android/app')
+
+include ':feima'
+project(':feima').projectDir = new File(rootProject.projectDir, '../modules/feima')
